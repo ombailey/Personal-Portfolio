@@ -1,0 +1,642 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu {
+  width: 15%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  background-color: #000;
+  overflow: hidden;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+#navbar li {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Radio Canada", sans-serif;
+  border: 1px solid white;
+  padding: 10px 0;
+}
+
+#navbar li a {
+  color: white;
+}
+
+#navbar li:hover {
+  background-color: #ccc;
+}
+
+#navbar li a:hover {
+  color: cornflowerblue;
+}
+
+.introduction {
+  height: 100vh;
+}
+
+/* Main Content Section */
+.home_container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.page_headlines {
+  font-size: 5rem;
+}
+
+#main_title {
+  font-size: 6rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+.headlines, .page_headlines {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.title_and_photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 5vh;
+}
+
+.aspiration {
+  padding-right: 10%;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+#photo {
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#omar_home_photo {
+  height: 550px;
+  border: 5px solid black;
+  border-radius: 50px;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.descriptions {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  color: #828282;
+}
+
+.social-img {
+  width: 50px;
+}
+
+#socials {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#socials li {
+  margin: 0px 10px;
+}
+
+.view_more_link {
+  margin-top: 15vh;
+}
+
+.contact_me {
+  width: 175px;
+  height: 50px;
+  background-color: cornflowerblue;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin-top: 5vh;
+}
+
+.view_more {
+  font-size: 3rem;
+  color: black;
+}
+
+.view_more:hover {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+}
+
+/* About Me Section  */
+.about_photo {
+  width: 500px;
+  border-radius: 10px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.about_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20vh;
+}
+
+.about_me_info {
+  width: 50vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_me_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 3vh;
+}
+
+.about_me_title {
+  font-size: 4rem;
+  font-weight: 400;
+  color: cornflowerblue;
+}
+
+.about_me_description {
+  font-size: 2.5rem;
+}
+
+.about_me_description,
+.about_me_title {
+  display: block;
+}
+
+.about_button {
+  margin-top: 2%;
+}
+
+.resume_button {
+  width: 250px;
+  height: 50px;
+  margin-top: 5vh;
+}
+
+.resume_text {
+  font-size: 2rem;
+}
+
+.uil,
+uil-import {
+  width: 50px;
+}
+
+.about_section {
+  height: 100vh;
+  margin-top: 10vh;
+}
+
+/* Skills Section */
+.skills_section {
+  height: 100vh;
+  padding-bottom: 25vh;
+}
+
+.skill_img {
+  width: 250px;
+  height: 250px;
+  margin-top: 3vh;
+}
+
+.languages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 5vh 5vh;
+}
+
+.skills_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.skill_name {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #000;
+}
+
+/* Portfolio Section */
+.portfolio {
+  height: 100vh;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+.portfolio_samples {
+  margin-top: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img_samples {
+  width: 350px;
+  height: 350px;
+}
+
+.samples {
+  padding: 0 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sample_title a {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.sample_title a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#name_socials {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+  /* Navigation Section */
+  .menu {
+    width: 15%;
+  }
+  #navbar li {
+    font-size: 2.5rem;
+    padding: 50px 0;
+  }
+  /* Main Section */
+  .home_container {
+    width: 85%;
+    height: 100vh;
+    margin-right: 0;
+    top: 0;
+  }
+  #name_socials {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #main_title {
+    font-size: 5rem;
+  }
+  .title_and_photo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #omar_home_photo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #photo {
+    width: 100%;
+  }
+  .aspiration {
+    width: 100%;
+    padding-top: 2vh;
+    padding-right: 0;
+  }
+  .headlines, .page_headlines {
+    font-size: 5rem;
+  }
+  .descriptions {
+    font-size: 3.5rem;
+  }
+  .contact_me {
+    width: 250px;
+    height: 75px;
+    font-size: 3rem;
+    margin-top: 1vh;
+  }
+  .view_more_link {
+    margin-top: 2vh;
+  }
+  .view_more {
+    font-size: 3.5rem;
+  }
+  /* About Me Section */
+  .about_section {
+    padding: 0;
+  }
+  .about_container {
+    margin-top: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about_me_info {
+    width: 100%;
+  }
+  .about_photo {
+    width: 500px;
+  }
+  .about_description {
+    margin-top: 3vh;
+    font-size: 3.5rem;
+  }
+  .about_me_title {
+    font-size: 7rem;
+  }
+  .about_me_description {
+    font-size: 3.5rem;
+  }
+  .resume_button {
+    width: 400px;
+    height: 65px;
+    margin-top: 2vh;
+  }
+  .resume_text {
+    font-size: 3.5rem;
+  }
+  /* Skills section */
+  .skills_container {
+    margin-top: 5vh;
+  }
+  .skill_img {
+    width: 150px;
+    height: 150px;
+  }
+  .skill_name {
+    font-size: 3rem;
+  }
+  .languages {
+    margin: 2vh 4vh;
+  }
+  /* Portfolio Section */
+  .portfolio_samples {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sample_title {
+    font-size: 4rem;
+  }
+  .samples {
+    padding: 25px 0px;
+  }
+  .back_to_top p {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+  }
+  /* Navigation */
+  .menu {
+    width: 100%;
+    height: 5vh;
+    top: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    background-color: #000;
+    overflow: hidden;
+  }
+  #navbar {
+    width: 100%;
+  }
+  #navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #navbar li {
+    font-size: 1.7rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    border: 0;
+    padding: 0 20px;
+  }
+  /* Home Section */
+  .home_container {
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 5vh;
+  }
+  .name_socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .headlines, .page_headlines {
+    font-size: 3rem;
+  }
+  .descriptions {
+    font-size: 2.2rem;
+  }
+  #omar_home_photo {
+    width: 300px;
+    height: 300px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .title_and_photo {
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aspiration {
+    width: 100%;
+    padding-top: 0;
+    padding-right: 0;
+  }
+  .contact_me {
+    margin-top: 1vh;
+    width: 125px;
+    font-size: 1.7rem;
+  }
+  .view_more_link {
+    margin-top: 25vh;
+  }
+  .view_more {
+    font-size: 2.5rem;
+  }
+  .sample_title {
+    font-size: 2rem;
+  }
+  #main_title {
+    font-size: 3rem;
+  }
+  #photo {
+    width: 100%;
+  }
+  /* About Section */
+  .about_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 5vh 0;
+  }
+  .about_section {
+    height: 100vh;
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_description {
+    margin-top: 2vh;
+  }
+  .about_photo {
+    width: 300px;
+  }
+  /* Skills section */
+  .skills_container {
+    margin-top: 10vh;
+  }
+  .skill_img {
+    width: 75px;
+    height: 75px;
+  }
+  .skill_name {
+    font-size: 1.5rem;
+  }
+  .languages {
+    margin: 2vh 4vh;
+  }
+}
+/*# sourceMappingURL=omar_bailey_home.css.map */
