@@ -328,8 +328,8 @@ uil-import {
 }
 
 .img_samples {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
 }
 
 .samples {
@@ -463,8 +463,11 @@ uil-import {
     font-size: 3.5rem;
   }
   /* Skills section */
+  .skills_section {
+    padding-top: 0vh;
+  }
   .skills_container {
-    margin-top: 5vh;
+    padding-top: 1vh;
   }
   .skill_img {
     width: 150px;
