@@ -333,7 +333,7 @@ uil-import {
 }
 
 .samples {
-  padding: 0 50px;
+  padding: 40px 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
