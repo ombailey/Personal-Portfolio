@@ -379,6 +379,10 @@ uil-import {
     margin-right: 0;
     top: 0;
   }
+
+  .introduction {
+    padding-top: 3vh;
+  }
   #name_socials {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -414,7 +418,7 @@ uil-import {
   }
   .headlines,
   .page_headlines {
-    font-size: 5rem;
+    font-size: 3.3rem;
   }
   .descriptions {
     font-size: 3rem;
@@ -432,11 +436,9 @@ uil-import {
     font-size: 3.5rem;
   }
   /* About Me Section */
-  .about_section {
-    padding: 0;
-  }
+
   .about_container {
-    margin-top: 5vh;
+    margin-top: 3vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -456,10 +458,10 @@ uil-import {
     font-size: 3rem;
   }
   .about_me_title {
-    font-size: 7rem;
+    font-size: 5rem;
   }
   .about_me_description {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .resume_button {
     width: 400px;
@@ -467,24 +469,22 @@ uil-import {
     margin-top: 2vh;
   }
   .resume_text {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   /* Skills section */
-  .skills_section {
-    padding-top: 0vh;
-  }
+
   .skills_container {
     padding-top: 3vh;
     display: grid;
-    grid-template-rows: repeat(3, 150px);
+    grid-template-rows: repeat(3, 125px);
     grid-row-gap: 125px;
     grid-column-gap: 50px;
-    grid-template-columns: repeat(3, 150px);
+    grid-template-columns: repeat(3, 125px);
     justify-items: center;
   }
   .skill_img {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
   }
   .skill_name {
     font-size: 3rem;
@@ -501,17 +501,14 @@ uil-import {
     padding-top: 5vh;
   }
   .sample_title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .samples {
     padding: 25px 0px;
   }
   .img_samples {
-    width: 250px;
-    height: 250px;
-  }
-  .portfolio {
-    padding-top: 0vh;
+    width: 200px;
+    height: 200px;
   }
 }
 
