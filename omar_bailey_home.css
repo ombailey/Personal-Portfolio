@@ -68,7 +68,7 @@
 }
 
 .page_headlines {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 #main_title {
@@ -89,6 +89,8 @@
   display: flex;
   width: 100%;
   padding-top: 5vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .aspiration {
@@ -105,14 +107,14 @@
 }
 
 #photo {
-  width: 50%;
+  /* width: 50%; */
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
 #omar_home_photo {
-  height: 550px;
+  height: 300px;
   border: 5px solid black;
   border-radius: 50px;
   -webkit-box-pack: right;
@@ -122,7 +124,7 @@
 
 .descriptions {
   font-family: "Oswald", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #828282;
 }
 
@@ -155,7 +157,7 @@
 .contact_me {
   width: 175px;
   height: 50px;
-  background-color: orangered;
+  background-color: rgb(100, 170, 255);
   color: #fff;
   font-size: 2rem;
   border-radius: 10px;
@@ -178,7 +180,7 @@
 
 /* About Me Section  */
 .about_photo {
-  width: 500px;
+  width: 300px;
   border-radius: 10px;
   -ms-grid-column-align: center;
   justify-self: center;
@@ -195,7 +197,7 @@
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   width: 100%;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 .about_me_info {
@@ -212,17 +214,16 @@
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  margin-top: 3vh;
 }
 
 .about_me_title {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
   color: cornflowerblue;
 }
 
 .about_me_description {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .about_me_description,
@@ -237,7 +238,7 @@
 .resume_button {
   width: 250px;
   height: 50px;
-  margin-top: 5vh;
+  margin-top: 1vh;
 }
 
 .resume_text {
@@ -251,18 +252,16 @@ uil-import {
 
 .about_section {
   height: 100vh;
-  padding-top: 5vh;
 }
 
 /* Skills Section */
 .skills_section {
   height: 100vh;
-  padding-top: 5vh;
 }
 
 .skill_img {
-  width: 250px;
-  height: 250px;
+  width: 100px;
+  height: 100px;
   margin-top: 3vh;
 }
 
@@ -305,7 +304,6 @@ uil-import {
 .portfolio {
   height: 100vh;
   width: 100%;
-  padding-top: 5vh;
 }
 
 .portfolio_samples {
@@ -329,8 +327,8 @@ uil-import {
 }
 
 .img_samples {
-  width: 250px;
-  height: 250px;
+  width: 100px;
+  height: 100px;
 }
 
 .samples {
